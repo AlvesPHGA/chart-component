@@ -1,7 +1,12 @@
 import React from 'react';
+import { Main } from './Main.style';
 
-const index = () => {
-   return <div>index</div>;
+export const Index = () => {
+   return (
+      <Main>
+         <p>main</p>
+      </Main>
+   );
 };
 
-export default index;
+export default Index;
