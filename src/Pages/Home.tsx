@@ -9,9 +9,11 @@ import { Container } from '../assets/styles/ClassUtils.style';
 const Home = () => {
    return (
       <Container>
-         <Header />
-         <Main />
-         <Footer />
+         <div className="card">
+            <Header />
+            <Main />
+            <Footer />
+         </div>
       </Container>
    );
 };
