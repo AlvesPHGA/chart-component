@@ -8,8 +8,11 @@ export const Container = styled.section`
    justify-content: center;
 
    & .card {
-      border: 1px solid red;
       width: 30vw;
       height: 60vh;
+   }
+
+   & .sub__legend {
+      font-size: ${14 / 16}rem;
    }
 `;
