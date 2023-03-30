@@ -11,6 +11,11 @@ export const Main = styled.main`
       text-align: center;
    }
 
+   & h1,
+   & h2 {
+      color: ${(props) => props.theme.colors.neutral_darkBrown};
+   }
+
    & .graphic {
       margin-top: ${40 / 16}rem;
       display: flex;
@@ -38,9 +43,32 @@ export const Main = styled.main`
                opacity: 0.9;
             }
          }
+      }
+   }
+
+   & .infos {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      & .total {
+         & h2 {
+            margin-top: ${4 / 16}rem;
+            font-size: ${30 / 16}rem;
+         }
+      }
+
+      & .percents {
+         text-align: right;
 
          & span {
-            color: ${(props) => props.theme.colors.neutral_mediumBrown};
+            display: block;
+            font-weight: 700;
+
+            &:nth-child(2) {
+               margin-top: ${4 / 16}rem;
+               font-weight: 400;
+            }
          }
       }
    }

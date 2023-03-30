@@ -8,31 +8,31 @@ export const Index = () => {
          <div className="graphic">
             <div className="graphic__item">
                <div className="item"></div>
-               <span className="sub__legend">mon</span>
+               <span className="sub__legend mediumBrown">mon</span>
             </div>
             <div className="graphic__item">
-               <div className="item item--active"></div>
-               <span className="sub__legend">tue</span>
-            </div>
-            <div className="graphic__item">
-               <div className="item"></div>
-               <span className="sub__legend">wed</span>
+               <div className="item item--active">{}</div>
+               <span className="sub__legend mediumBrown">tue</span>
             </div>
             <div className="graphic__item">
                <div className="item"></div>
-               <span className="sub__legend">thu</span>
+               <span className="sub__legend mediumBrown">wed</span>
             </div>
             <div className="graphic__item">
                <div className="item"></div>
-               <span className="sub__legend">fri</span>
+               <span className="sub__legend mediumBrown">thu</span>
             </div>
             <div className="graphic__item">
                <div className="item"></div>
-               <span className="sub__legend">sat</span>
+               <span className="sub__legend mediumBrown">fri</span>
             </div>
             <div className="graphic__item">
                <div className="item"></div>
-               <span className="sub__legend">sun</span>
+               <span className="sub__legend mediumBrown">sat</span>
+            </div>
+            <div className="graphic__item">
+               <div className="item"></div>
+               <span className="sub__legend mediumBrown">sun</span>
             </div>
          </div>
 
@@ -40,12 +40,12 @@ export const Index = () => {
 
          <div className="infos">
             <div className="total">
-               <span className="sub__legend">Total this month</span>
+               <span className="sub__legend mediumBrown">Total this month</span>
                <h2>$478.33</h2>
             </div>
             <div className="percents">
                <span className="sub__legend">+2.4%</span>
-               <span className="sub__legend">from last month</span>
+               <span className="sub__legend mediumBrown">from last month</span>
             </div>
          </div>
       </Main>

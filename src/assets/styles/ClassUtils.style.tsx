@@ -20,4 +20,16 @@ export const Container = styled.section`
    & .padding-all {
       padding: ${20 / 16}rem;
    }
+
+   & .border {
+      width: 100%;
+      height: ${1 / 16}rem;
+      background: ${(props) => props.theme.colors.neutral_mediumBrown};
+      opacity: 0.3;
+      margin: ${20 / 16}rem auto;
+   }
+
+   & .mediumBrown {
+      color: ${(props) => props.theme.colors.neutral_mediumBrown};
+   }
 `;
