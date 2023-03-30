@@ -13,6 +13,7 @@ export const Container = styled.section`
    }
 
    & .sub__legend {
-      font-size: ${14 / 16}rem;
+      font-size: ${12 / 16}rem;
+      font-weight: 400;
    }
 `;
