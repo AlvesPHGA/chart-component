@@ -16,4 +16,8 @@ export const Container = styled.section`
       font-size: ${12 / 16}rem;
       font-weight: 400;
    }
+
+   & .padding-all {
+      padding: ${20 / 16}rem;
+   }
 `;
