@@ -27,6 +27,16 @@ export const Main = styled.main`
             height: 200px;
             border-radius: ${4 / 16}rem;
             background: ${(props) => props.theme.colors.primary_softRed};
+            transition: 0.4s ease-in-out;
+            cursor: pointer;
+
+            &.item--active {
+               background: ${(props) => props.theme.colors.primary_cyan};
+            }
+
+            &:hover {
+               opacity: 0.9;
+            }
          }
 
          & span {

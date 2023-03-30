@@ -11,7 +11,7 @@ export const Index = () => {
                <span className="sub__legend">mon</span>
             </div>
             <div className="graphic__item">
-               <div className="item"></div>
+               <div className="item item--active"></div>
                <span className="sub__legend">tue</span>
             </div>
             <div className="graphic__item">
