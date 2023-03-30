@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const Header = styled.header`
+   align-items: center;
    background: ${(props) => props.theme.colors.primary_softRed};
    border-radius: 0.75rem;
    color: ${(props) => props.theme.colors.white};
-   padding: 1.25rem;
    display: flex;
    justify-content: space-between;
-   align-items: center;
+   padding: 1.25rem;
 
    & p {
       font-size: ${20 / 16}rem;
@@ -20,24 +20,24 @@ export const Header = styled.header`
       width: 60px;
 
       & .circle {
-         width: 30px;
-         height: 30px;
+         background: ${(props) => props.theme.colors.neutral_darkBrown};
          border-radius: 50%;
          border: 1px solid ${(props) => props.theme.colors.neutral_darkBrown};
-         background: ${(props) => props.theme.colors.neutral_darkBrown};
+         height: 30px;
          position: relative;
          transform: translateX(70%);
+         width: 30px;
 
          & .circle-02 {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
             background: transparent;
+            border-radius: 50%;
             border: 1px solid ${(props) => props.theme.colors.white};
+            height: 30px;
             position: absolute;
+            right: 50%;
             top: 50%;
             transform: translateY(-50%);
-            right: 50%;
+            width: 30px;
             z-index: 0;
          }
       }
