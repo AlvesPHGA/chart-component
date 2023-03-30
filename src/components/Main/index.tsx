@@ -1,6 +1,8 @@
 import React from 'react';
 import { Main } from './Main.style';
 
+import { Index as Info } from './Infos/index';
+
 export const Index = () => {
    return (
       <Main className="padding-all">
@@ -38,16 +40,7 @@ export const Index = () => {
 
          <div className="border"></div>
 
-         <div className="infos">
-            <div className="total">
-               <span className="sub__legend mediumBrown">Total this month</span>
-               <h2>$478.33</h2>
-            </div>
-            <div className="percents">
-               <span className="sub__legend">+2.4%</span>
-               <span className="sub__legend mediumBrown">from last month</span>
-            </div>
-         </div>
+         <Info />
       </Main>
    );
 };
