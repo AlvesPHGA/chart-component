@@ -9,5 +9,6 @@ export const theme = {
       neutral_veryPaleOrange: 'hsl(33, 100%, 98%)',
 
       white: '#fff',
+      mistyRose: '#f9e6e6',
    },
 };
