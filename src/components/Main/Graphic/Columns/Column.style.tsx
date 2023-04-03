@@ -8,7 +8,6 @@ export const Column = styled.div`
 
    & .item {
       width: ${60 / 16}rem;
-      height: 200px;
       border-radius: ${4 / 16}rem;
       background: ${(props) => props.theme.colors.primary_softRed};
       transition: 0.4s ease-in-out;
