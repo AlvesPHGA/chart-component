@@ -11,5 +11,6 @@ export const GlobalStyle = createGlobalStyle`
 
    body{
       font-family: 'DM Sans', sans-serif;
+      background: ${(props) => props.theme.colors.mistyRose}
    }
 `;

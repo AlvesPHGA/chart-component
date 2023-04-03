@@ -1,4 +1,6 @@
-export const theme = {
+import { DefaultTheme } from 'styled-components';
+
+export const theme: DefaultTheme = {
    colors: {
       primary_cyan: 'hsl(186, 34%, 60%)',
       primary_softRed: 'hsl(10, 79%, 65%)',
@@ -9,6 +11,6 @@ export const theme = {
       neutral_veryPaleOrange: 'hsl(33, 100%, 98%)',
 
       white: '#fff',
-      mistyRose: '#f9e6e6',
+      mistyRose: '#F9E6E6',
    },
 };
