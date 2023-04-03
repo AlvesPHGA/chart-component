@@ -5,6 +5,9 @@ export const Index = ({ day, amount }: { day: string; amount: number }) => {
    console.log(amount);
    return (
       <Column>
+         <div className="legend">
+            <span>{amount}%</span>
+         </div>
          <div
             className="item"
             style={{
