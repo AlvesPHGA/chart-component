@@ -2,7 +2,6 @@ import React from 'react';
 import { Column } from './Column.style';
 
 export const Index = ({ day, amount }: { day: string; amount: number }) => {
-   console.log(amount);
    return (
       <Column>
          <div className="legend">
