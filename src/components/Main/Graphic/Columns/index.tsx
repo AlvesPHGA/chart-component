@@ -42,7 +42,7 @@ export const Index = ({ day, amount }: { day: string; amount: number }) => {
             <span>{amount}%</span>
          </div>
          <div
-            className="item"
+            className={`item ${weekDay.toLowerCase() === day ? 'active' : ''}`}
             style={{
                height: `${(amount + 100) / 16}rem`,
             }}
