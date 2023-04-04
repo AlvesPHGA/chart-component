@@ -33,7 +33,7 @@ export const Column = styled.div`
       border-radius: ${4 / 16}rem;
       background: ${(props) => props.theme.colors.primary_softRed};
 
-      &.item--active {
+      &.active {
          background: ${(props) => props.theme.colors.primary_cyan};
       }
    }
