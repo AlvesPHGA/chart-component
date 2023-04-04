@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+export const Information = styled.section``;
+
 export const Info = styled.div`
    display: flex;
    align-items: center;
