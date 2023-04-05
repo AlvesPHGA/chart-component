@@ -7,7 +7,8 @@
       "dev": "vite",
       "build": "tsc && vite build",
       "preview": "vite preview",
-      "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore ."
+      "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore .",
+      "vercel": "npx vercel ./dist --prod"
    },
    "dependencies": {
       "react": "^18.2.0",
