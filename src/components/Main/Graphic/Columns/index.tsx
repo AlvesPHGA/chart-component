@@ -37,12 +37,12 @@ export const Index = ({ day, amount }: { day: string; amount: number }) => {
    }, [active]);
 
    return (
-      <Column>
+      <Column className={` ${weekDay.toLowerCase() === day ? 'active' : ''}`}>
          <div className="legend">
             <span>{amount}%</span>
          </div>
          <div
-            className={`item ${weekDay.toLowerCase() === day ? 'active' : ''}`}
+            className="item"
             style={{
                height: `${(amount + 100) / 16}rem`,
             }}

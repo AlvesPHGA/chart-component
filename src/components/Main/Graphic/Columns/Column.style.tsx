@@ -16,6 +16,20 @@ export const Column = styled.div`
       }
    }
 
+   &.active {
+      & span {
+         font-weight: 700;
+      }
+
+      & .legend {
+         visibility: initial;
+      }
+
+      & .item {
+         background: ${(props) => props.theme.colors.primary_cyan};
+      }
+   }
+
    & .legend {
       padding: ${8 / 16}rem ${4 / 16}rem;
       border-radius: ${4 / 16}rem;
@@ -32,9 +46,5 @@ export const Column = styled.div`
       width: ${60 / 16}rem;
       border-radius: ${4 / 16}rem;
       background: ${(props) => props.theme.colors.primary_softRed};
-
-      &.active {
-         background: ${(props) => props.theme.colors.primary_cyan};
-      }
    }
 `;
