@@ -7,6 +7,8 @@
 <p>I used a 'Date' object to getDate method to active the column according to the day of the week.</p>
 <p>This project was part in challenges in <a href = 'https://www.frontendmentor.io/'>Frontend Mentor</a>.</p>
 
+<a href = 'https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt'>Link Challenge</a>
+
 ## Technologies
 
 <ul>
