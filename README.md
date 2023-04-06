@@ -9,6 +9,10 @@
 
 <a href = 'https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt'>Link Challenge</a>
 
+### Deploy
+
+<a href = 'https://chart-component-alvesphga.vercel.app/'>Chart Component</a>
+
 ## Technologies
 
 <ul>
