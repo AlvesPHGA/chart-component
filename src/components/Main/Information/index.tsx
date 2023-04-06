@@ -3,24 +3,25 @@ import { Info, Information } from './Information.style';
 import { Graphic } from '../Graphic/Graphic.style';
 
 import { Index as Column } from '../Graphic/Columns';
+import { data } from '../../../assets/data/data';
 
-interface IterfaceData {
-   day: string;
-   amount: number;
-}
+// interface IterfaceData {
+//    day: string;
+//    amount: number;
+// }
 
 export const Index = () => {
-   const [data, setData] = React.useState<IterfaceData[]>([]);
+   // const [data, setData] = React.useState<IterfaceData[]>([]);
 
-   React.useEffect(() => {
-      function getData() {
-         fetch('../../../data.json')
-            .then((res) => res.json())
-            .then((dt) => setData(dt));
-      }
+   // React.useEffect(() => {
+   //    function getData() {
+   //       fetch('../../../data.json')
+   //          .then((res) => res.json())
+   //          .then((dt) => setData(dt));
+   //    }
 
-      getData();
-   }, []);
+   //    getData();
+   // }, []);
 
    const sumAmount = data
       .map(({ amount }) => amount)
